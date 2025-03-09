@@ -1,0 +1,21 @@
+[package]
+
+description = "SWC plugin for swc_plugin_remove_node_protocol"
+
+authors      = ["zhuguibiao <zhuguibiao1994@gmail.com>"]
+edition      = "2021"
+homepage     = "https://github.com/zhuguibiao/swc_plugin_remove_node_protocol"
+repository   = "https://github.com/zhuguibiao/swc_plugin_remove_node_protocol.git"
+rust-version = "1.70"
+name         = "swc_plugin_remove_node_protocol"
+publish      = false
+version      = "0.1.0"
+
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+swc_common              = { version = "8.0.0", features = ["concurrent"] }
+swc_core                = { version = "16.0.0", features = ["ecma_plugin_transform"] }
+swc_atoms               = "5.0.0"

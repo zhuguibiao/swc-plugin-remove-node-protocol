@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Should load remove-console wasm plugin correctly 1`] = `
+"import fs from 'fs';
+import path from 'path';
+const dynamic = import('url');
+const fs = require('fs');
+const path = require.resolve('path');
+import * as _fs from 'fs';
+export { _fs as fs };
+export * from 'crypto';
+export { readFile } from 'fs';
+module.exports = {
+    fs: require('fs')
+};
+module.exports.fs = require('fs');
+/** ignore */ console.log('node:fs');
+fn('node:fs');
+"
+`;

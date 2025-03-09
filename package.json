@@ -1,0 +1,33 @@
+{
+  "name": "swc-plugin-remove-node-protocol",
+  "version": "0.1.0",
+  "author": "zhuguibiao <zhuguibiao1994@gmail.com>",
+  "main": "swc_plugin_remove_node_protocol.wasm",
+  "scripts": {
+    "prepack": "cargo build --release -p swc_plugin_remove_node_protocol --target wasm32-wasip1 && cp target/wasm32-wasip1/release/swc_plugin_remove_node_protocol.wasm .",
+    "test": "vitest"
+  },
+  "files": [
+    "swc_plugin_remove_node_protocol.wasm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuguibiao/swc-plugin-remove-node-protocol.git"
+  },
+  "homepage": "https://zhuguibiao.github.io/swc-plugin-remove-node-protocol",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.11.5",
+    "vitest": "^3.0.7"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "keywords": [
+    "swc",
+    "rust",
+    "swc-plugin",
+    "swc_plugin_remove_node_protocol",
+    "remove_node_protocol",
+    "remove-node-protocol",
+    "node"
+  ]
+}
