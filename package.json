@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/zhuguibiao/swc-plugin-remove-node-protocol.git"
   },
-  "homepage": "https://zhuguibiao.github.io/swc-plugin-remove-node-protocol",
+  "homepage": "https://github.com/zhuguibiao/swc-plugin-remove-node-protocol",
   "license": "MIT",
   "devDependencies": {
     "@swc/core": "^1.11.5",

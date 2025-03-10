@@ -23,7 +23,7 @@ Via `.swcrc`
     "experimental": {
       "plugins": [
         [
-          "swc-plugin-remove-node-protocol",
+          "swc-plugin-remove-node-protocol"
         ]
       ]
     }
